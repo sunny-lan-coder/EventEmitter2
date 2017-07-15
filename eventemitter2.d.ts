@@ -34,7 +34,7 @@ export interface EventAndListener {
 }
 
 export declare class EventEmitter2 {
-    constructor(options?: ConstructorOptions)
+    constructor(p: { wildcard: boolean }, options: ConstructorOptions)
     emit(event: string | string[], ...values: any[]): boolean;
     emitAsync(event: string | string[], ...values: any[]): Promise<any[]>;
     addListener(event: string, listener: Listener): this;
