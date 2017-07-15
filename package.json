@@ -1,34 +1,30 @@
 {
-  "name": "eventemitter2",
-  "version": "4.1.2",
-  "description": "A Node.js event emitter implementation with namespaces, wildcards, TTL and browser support.",
-  "keywords": ["event", "events", "emitter", "eventemitter"],
+  "name": "eventemitterchain2",
+  "version": "1.0.0",
+  "description": "An extension of EventEmitter2 that allows for ordered execution of events",
+  "keywords": ["event", "events", "emitter", "eventemitter", "async"],
   "author": "hij1nx <paolo@async.ly> http://twitter.com/hij1nx",
   "contributors": [
     "Eric Elliott",
     "Charlie Robbins <charlie@nodejitsu.com> http://twitter.com/indexzero",
     "Jameson Lee <jameson@nodejitsu.com> http://twitter.com/Jamesonjlee",
     "Jeroen van Duffelen <jvduf@nodejitsu.com> http://www.twitter.com/jvduf",
-    "Fedor Indutny <fedor.indutny@gmail.com> http://www.twitter.com/indutny"
+    "Fedor Indutny <fedor.indutny@gmail.com> http://www.twitter.com/indutny",
+    "Sunny Lan <sunny.lan.coder@gmail.com>"
   ],
   "license": "MIT",
-  "repository": "git://github.com/hij1nx/EventEmitter2.git",
-  "devDependencies": {
-    "nodeunit": "*",
-    "benchmark" : ">= 0.2.2"
-  },
-  "main": "./lib/eventemitter2.js",
+  "repository": "git://github.com/sunny-lan-coder/EventEmitterChain2.git",
+  "main": "./lib/eventemitterchain2.js",
   "scripts" : {
-    "test" : "nodeunit test/simple/ && nodeunit test/wildcardEvents/",
-    "benchmark" : "node test/perf/benchmark.js"
+    "test" : "node test/chain/index.js"
   },
   "files": [
-    "lib/eventemitter2.js",
+    "lib/eventemitterchain2.js",
     "index.js",
-    "eventemitter2.d.ts"
+    "eventemitterchain2.d.ts"
   ],
-  "typings": "./eventemitter2.d.ts",
+  "typings": "./eventemitterchain2.d.ts",
   "typescript": {
-    "definition": "./eventemitter2.d.ts"
+    "definition": "./eventemitterchain2.d.ts"
   }
 }

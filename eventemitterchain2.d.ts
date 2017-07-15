@@ -33,7 +33,7 @@ export interface EventAndListener {
     (event: string | string[], ...values: any[]): void;
 }
 
-export declare class EventEmitter2 {
+export declare class EventEmitterChain2 {
     constructor(p: { wildcard: boolean }, options: ConstructorOptions)
     emit(event: string | string[], ...values: any[]): boolean;
     emitAsync(event: string | string[], ...values: any[]): Promise<any[]>;

@@ -1,16 +1,11 @@
 {
-  "name": "eventemitter2",
-  "version": "4.1.2",
-  "description": "A Node.js event emitter implementation with namespaces, wildcards, TTL and browser support.",
-  "keywords": [
-    "event",
-    "events",
-    "emitter",
-    "eventemitter"
-  ],
-  "main": "lib/eventemitter2.js",
+  "name": "eventemitterchain2",
+  "version": "1.0.0",
+  "description": "An extension of EventEmitter2 that allows for ordered execution of events",
+  "keywords": ["event", "events", "emitter", "eventemitter", "async"],
+  "main": "lib/eventemitterchain2.js",
   "scripts": [
-    "lib/eventemitter2.js"
+    "lib/eventemitterchain2.js"
   ],
   "license": "MIT"
 }

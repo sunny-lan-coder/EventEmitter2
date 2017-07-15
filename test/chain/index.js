@@ -1,4 +1,4 @@
-const E = require('../../').EventEmitter2;
+const E = require('../../').EventEmitterChain2;
 
 let e = new E({wildcard: true}, () => console.log("terminator called"));
 

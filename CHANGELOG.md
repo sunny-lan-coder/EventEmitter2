@@ -31,7 +31,7 @@ For changes before version 2.2.0, please see the commit history
 
 ## [3.0.0] - 2017-01-23
 ### Changed
-- Typescript definition now uses `EventEmitter2` instead of `EventEmitter2.eitter`. @gitawego
+- Typescript definition now uses `EventEmitterChain2` instead of `EventEmitterChain2.eitter`. @gitawego
 
 ## [2.2.2] - 2017-01-17
 ### Fixed
