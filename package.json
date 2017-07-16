@@ -1,6 +1,6 @@
 {
   "name": "eventemitterchain2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An extension of EventEmitter2 that allows for ordered execution of events",
   "keywords": [
     "event",
