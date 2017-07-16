@@ -1,6 +1,6 @@
 const E = require('../../').EventEmitterChain2;
 
-let e = new E({wildcard: true}, () => console.log("terminator called"));
+let e = new E({wildcard: true}, (evt) => console.log("terminator called upon event ", evt));
 
 e.on('a', (next) => {
     console.log("handler 1 was triggered (a)");
