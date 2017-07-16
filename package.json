@@ -1,8 +1,14 @@
 {
   "name": "eventemitterchain2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An extension of EventEmitter2 that allows for ordered execution of events",
-  "keywords": ["event", "events", "emitter", "eventemitter", "async"],
+  "keywords": [
+    "event",
+    "events",
+    "emitter",
+    "eventemitter",
+    "async"
+  ],
   "author": "hij1nx <paolo@async.ly> http://twitter.com/hij1nx",
   "contributors": [
     "Eric Elliott",
@@ -15,8 +21,8 @@
   "license": "MIT",
   "repository": "git://github.com/sunny-lan-coder/EventEmitterChain2.git",
   "main": "./lib/eventemitterchain2.js",
-  "scripts" : {
-    "test" : "node test/chain/index.js"
+  "scripts": {
+    "test": "node test/chain/index.js"
   },
   "files": [
     "lib/eventemitterchain2.js",
