@@ -7,10 +7,12 @@ e.on('a', (next, x, y, z, a) => {
     next();
 });
 
-e.on('*', (next) => {
+const rec=(next) => {
     console.log("handler 2 was triggered (*)");
     next();
-});
+};
+
+e.on('*',rec );
 
 e.on('b', (next) => {
     console.log("handler 3 was triggered (b)");
@@ -27,3 +29,7 @@ console.log("emitting *", 5, 6, 7, 8);
 e.emit('*');
 console.log("emitting c");
 e.emit('c');
+console.log("remove wildcard");
+e.removeListener('*',rec );
+console.log("emitting x");
+e.emit('x');
